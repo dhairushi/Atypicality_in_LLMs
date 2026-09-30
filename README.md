@@ -3,7 +3,7 @@
 Dhairushi Patel
 7083698
 ## Directory Structure
-
+''' 
 README.md
 .
 ├── pipeline1.py          # Main experiment pipeline — OLMo 2 (7B)
@@ -19,7 +19,7 @@ README.md
     |__ sft.jsonl
     |__ dop.jsonl
     |__ pretrained.jsonl
-
+'''
 ## How to run
 1. generate_probes.py → produces redundancy_probes.json
 2. pipeline_7b.py (or pipeline_1b.py) → run once per checkpoint, produces results/{stage}.jsonl
